@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='eng'>
+
+<head>
+
+    <h1>What's your motivation for today?</h1>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="description" content="" />
+
+        <link rel="stlye" href="style.css">
+        <script src="myProject.js"></script>
+
+</head>
+<body>
+
+    <button id="button" oneclick="genTheMsg()"> Here it is.</button> <br><br><br>
+
+    <p id="script"></p>
+
+    <script>
+        function genTheMsg() {
+            document.getElementById("script").innerHTML = randomMsg();
+        };
+    </script>
+</body>
+</html>
