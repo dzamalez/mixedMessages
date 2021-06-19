@@ -3,7 +3,7 @@
 const arrays = {
     'quote' : ['"Survival is winning, Franklin, everything else is bullshit. Fairy tales spun by people too afraid to look life in the eye. Whatever it takes kid: survive."', '"Security is mostly a superstition. Life is either a daring adventure or nothing."', '"Don\'t let yesturday take up too much of today."', '"We may encounter many defeats but we must not be defeated."'],
     'author' : ['Will Rogers', 'Maya Angelou', 'Helen Keller', 'Unkown'],
-    'day' : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sudnay']
+    'day' : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 };
 
 
@@ -18,6 +18,7 @@ const random = {
 let quote;
 let author;
 let day;
+let quoteItalics;
 
 // in this switch operation, if the quote is not given, replace arrays['quote'][x] with string
 switch(random['randomQuote']){
@@ -82,10 +83,8 @@ switch(random['randomDay']){
  
 function randomMsg() {
     // change this to a return command
-    return (`Your ${day} motivational quote is ${quote} -${author}`),
-    console.log(`Your ${day} motivational quote is ${quote} -${author}`);
+    return (`Your ${day} motivational quote is; ${quote} -${author}`)
 
 };
 
-randomMsg();
-console.log('hello world');
+

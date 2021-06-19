@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;     
-    background-color:blue;
+    background-color:rgb(0, 31, 116);
     text-align: center;
     margin-top: 100px;
     margin-left: 450px;
@@ -26,13 +26,12 @@ body {
 #response{
     font-family: 'Times New Roman', Times, serif;
     color: aqua;
-    background-color: black;
     font-size: medium;
     padding: 20px;
 }
 
 button:visited {
-    background-color: rgba(205, 7, 223, 0.808);
+    background-color: rgba(234, 0, 255, 0.808);
     color:cornflowerblue;
 }
 
@@ -45,4 +44,9 @@ button:hover {
 
     color: white;
     
+}
+#demo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
 }
