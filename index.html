@@ -13,14 +13,15 @@
 
 </head>
 <body>
-
-    <button id="button" oneclick="genTheMsg()"> Here it is.</button> <br><br><br>
-    <p id="response">Check the console in the inspect tool to recieve your motivation!</p>
-    <p id="script"></p>
-
-    <script>
+    <div>
+        <p id="response">Click the button to recieve your motivation!</p>
+        <button id="button" onclick="genTheMsg()"> Here it is.</button> <br><br><br>
+        <p id="demo"></p>
+    </div>
+   
+   <script>
         function genTheMsg() {
-            document.getElementById("script").innerHTML = randomMsg();
+            document.getElementById("demo").innerHTML = randomMsg();
         };
     </script>
 </body>
