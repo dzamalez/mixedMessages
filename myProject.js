@@ -18,7 +18,6 @@ const random = {
 let quote;
 let author;
 let day;
-let quoteItalics;
 
 // in this switch operation, if the quote is not given, replace arrays['quote'][x] with string
 switch(random['randomQuote']){
